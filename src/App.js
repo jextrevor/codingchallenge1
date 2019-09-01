@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import GoogleMapReact from 'google-map-react';
 import './App.scss';
 import request from 'request-promise-native';
@@ -34,7 +34,8 @@ function App() {
         onClick={_onClick}
       >
       </GoogleMapReact>
-      <div style={{ position: "absolute", top: "2vmin", left: "2vmin" }}><h1>Hello!</h1></div>
+      <div style={{ position: "absolute", bottom: "2vmin", left: "2vmin", color: "#FFF", backgroundColor: "#2E4C62", padding: "1em" }}>
+      </div>
     </div>
   );
 }
