@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="fullscreen">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyDJZSSCXHWx0a8iWMo6IasDiHNEI9589Qg" }}
+        bootstrapURLKeys={{ key: process.env.REACT_APP_API_KEY }}
         defaultCenter={{
           lat: 59.95,
           lng: 30.33
